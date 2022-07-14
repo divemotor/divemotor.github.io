@@ -42,7 +42,7 @@ limitations under the License.
 
   </head>
   <body style="background-color:#052033" "border-color:#052033">
-    <div id="ddc_chart"></div>
+    <div id="ddc_chart" style="background-color:#052033"></div>
 
     <script type="text/javascript">
 		"use strict";
@@ -60,7 +60,7 @@ limitations under the License.
 			    // height of the chart - defaults to container's height (if non-zero)
 			    height: 350,
 			    // The percent of total width the bottom should be
-			    bottomWidth: 4/9,
+			    bottomWidth: 3/7,
 			    // How many blocks to pinch on the bottom to create a funnel "neck"
 			    bottomPinch: 1, 
 			    // Whether the funnel is inverted
@@ -160,7 +160,7 @@ limitations under the License.
 		var _optionsCopy = deepCopy(_OPTIONS);
 
 
-		var _STROKE_WIDTH = "4.0px";
+		var _STROKE_WIDTH = "1.0px";
 
 		// Set up event listener for messages from VA to DDC
 		va.messagingUtil.setOnDataReceivedCallback(onDataReceived);
